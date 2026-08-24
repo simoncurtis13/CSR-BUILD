@@ -1,6 +1,6 @@
-# CSR-BUILD — Alembee by CSR Build Control
+# CSR-BUILD — Beem by CSR Build Control
 
-This private repository is the independent build-control home for Alembee by CSR. It contains the cross-repository execution baseline derived from the Curtis Doctrine corpus and connected repository estate.
+This private repository is the independent build-control home for Beem by CSR. It contains the cross-repository execution baseline derived from the Curtis Doctrine corpus and connected repository estate.
 
 Runtime and donor code remains in its own repositories. `CSR-BUILD` controls scope, traceability, dependencies, migrations, acceptance gates, evidence and release coordination; it does not silently transfer source ownership or collapse the repositories into one codebase.
 

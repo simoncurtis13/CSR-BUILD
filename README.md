@@ -9,25 +9,16 @@ Read these first and treat them as the controlling Beem product/build documents:
 1. [`BEEM_FULL_PRODUCT_CANON_v1_0.md`](./docs/BEEM_FULL_PRODUCT_CANON_v1_0.md) — current product canon: what Beem is, product laws, boundaries, customer experience and required capability surface.
 2. [`BEEM_FULL_BUILD_SPECIFICATION_v1_0.md`](./docs/BEEM_FULL_BUILD_SPECIFICATION_v1_0.md) — current implementation authority: architecture, contracts, modules, sequencing, tests, gates and acceptance criteria.
 
-These two documents supersede the older planning package for deriving Beem implementation requirements. Older files remain in the repository as provenance until deliberate cleanup; they must not be used to create competing product semantics or build requirements.
+There are only two operative Beem build documents. The Product Canon controls product meaning; the Build Specification controls implementation requirements. No older plan, handover, code comment, donor package or historical product name creates a third source of truth.
 
-The current canonical scope explicitly includes the governed marketing execution surface across web, SEO/AI search, paid search, paid social, organic social, email, written content, visual creative/art, CRM and measurement.
+The current canonical scope includes the governed marketing execution surface across web, SEO/AI search, paid search, paid social, organic social, email, written content, visual creative/art, CRM and measurement.
 
-## Provenance / earlier planning package
+## Superseded provenance
 
-The following files are retained for history, traceability, evidence and migration context only unless a current canonical document explicitly calls them back into scope:
+The earlier planning package has been removed from the current developer surface. Its audit disposition and pre-cleanup history reference are recorded in [`PROVENANCE_STATUS.md`](./docs/PROVENANCE_STATUS.md).
 
-- [`PRODUCT_CONSTITUTION.md`](./docs/PRODUCT_CONSTITUTION.md)
-- [`PLAN_SOT.md`](./docs/PLAN_SOT.md)
-- [`IMPLEMENTATION_PLAN.md`](./docs/IMPLEMENTATION_PLAN.md)
-- [`REPOSITORY_EVIDENCE_BASELINE.md`](./docs/REPOSITORY_EVIDENCE_BASELINE.md)
-- [`CROSS_REPOSITORY_HANDOVER.md`](./docs/CROSS_REPOSITORY_HANDOVER.md)
-- [`TRACEABILITY_MATRIX.md`](./docs/TRACEABILITY_MATRIX.md)
-- [`OPEN_OBJECT_REGISTER.md`](./docs/OPEN_OBJECT_REGISTER.md)
-- [`CAPABILITY_AND_USE_CASE_SPEC.md`](./docs/CAPABILITY_AND_USE_CASE_SPEC.md)
-- [`ACCEPTANCE_TEST_CATALOGUE.md`](./docs/ACCEPTANCE_TEST_CATALOGUE.md)
-- [`MIGRATION_AND_CUTOVER_PLAN.md`](./docs/MIGRATION_AND_CUTOVER_PLAN.md)
+Historical Alembee, Beem-facing GIA/CIG, CGS-derivative and named-provider planning must not be used to derive current Beem requirements.
 
-Runtime and donor code remains in its own repositories. `CSR-BUILD` controls scope, traceability, dependencies, migrations, acceptance gates, evidence and release coordination; it does not silently transfer source ownership or collapse repositories into one codebase.
+Runtime and donor code remains in separate repositories. `CSR-BUILD` is documentation and build control; it is not the Beem runtime, a repository-consolidation receipt, source-ownership transfer, deployment or validation evidence.
 
 The documentation defines product/build authority. It does not by itself certify implementation, deployment, rights clearance, production readiness or commercial validation.

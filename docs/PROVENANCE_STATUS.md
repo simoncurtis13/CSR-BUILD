@@ -1,3 +1,9 @@
+# Current authority update — 18 November 2026
+
+The [Beem pinned Drive map](https://docs.google.com/document/d/1IX3wS33b3JxupcdyFVaOVhZH2QkMU62bCPxiGweWTT4/edit) declares Product Canon v1.0, Build Specification v1.2 and Build Plan v0.3 as the current developer authority set. The previous v1.0 Build Specification in this repository has been mothballed, not deleted; former v1.1 and Plan v0.1/v0.2 are superseded. See [legacy salvage register](./BEEM_LEGACY_SALVAGE_REGISTER.md) for what survives and how to re-check missing details. This documentation reconciliation does not adopt experimental side lanes or prove deployment.
+
+---
+
 # Superseded planning package
 
 The pre-29 September 2026 planning package was removed from the current developer surface after the owner-directed Beem authority closure.

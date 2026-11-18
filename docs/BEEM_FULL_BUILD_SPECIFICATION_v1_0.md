@@ -1,3 +1,9 @@
+> **MOTHBALLED / SUPERSEDED — DO NOT USE FOR NEW BEEM WORK**
+>
+> This historical source is retained for traceability only. The current source of implementation requirements is [Beem Full Build Specification v1.2](./BEEM_FULL_BUILD_SPECIFICATION_v1_2.md), with [Phase Plan v0.3](./BEEM_PHASE_ONE_AND_PHASE_TWO_BUILD_PLAN_v0_3.md) as the subordinate sequence. See [salvage register](./BEEM_LEGACY_SALVAGE_REGISTER.md). Do not revive earlier GIA dependencies or infer any live integration/deployment from this file.
+
+---
+
 # BEEM FULL BUILD SPECIFICATION v1.0
 
 Product: Beem by CSR
